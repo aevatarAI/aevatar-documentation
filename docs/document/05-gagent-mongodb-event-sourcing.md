@@ -1,4 +1,4 @@
-# GAgent EventSourcing
+# GAgent + MongoDB: Event Sourcing Log and State Persistence Guide
 
 ## 1. Introduction & Goals
 

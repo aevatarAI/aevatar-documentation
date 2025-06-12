@@ -1,4 +1,4 @@
-# GAgent
+# Understanding GAgent: The Core of Aevatar
 
 ## Introduction
 

@@ -1,4 +1,4 @@
-# GAgent Attribute: Defining and Discovering Your Agents
+# The `[GAgent]` Attribute: Defining and Discovering Your Agents
 
 ## Introduction
 
@@ -69,8 +69,8 @@ var agent = await gAgentFactory.GetGAgentAsync("custom-alias", "custom.namespace
 
 ## Further Reading
 
-- [GAgent Documentation]./gagent)
-- [Aevatar Overview]./overview)
+- [GAgent Documentation](./01-gagent.md)
+- [Aevatar Overview](./00-overview.md)
 - [GAgentFactory Usage](https://deepwiki.com/aevatarAI/aevatar-framework/2.1-gagent-system)
 
 ---

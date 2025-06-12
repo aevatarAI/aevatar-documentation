@@ -1,10 +1,10 @@
-# GAgentFactory
+# GAgentFactory: Creating and Managing Agents in Aevatar
 
 ## Introduction
 
 `GAgentFactory` is the central utility for creating, retrieving, and configuring GAgents in the Aevatar framework. It abstracts away the complexity of Orleans grain instantiation and ensures that your agents are properly activated and configured before use.
 
-For context on GAgent design and registration, see the [GAgent documentation]./gagent) and [GAgent Attribute]./gagent-attribute).
+For context on GAgent design and registration, see the [GAgent documentation](./01-gagent.md) and [GAgent Attribute](./03-gagent-attribute.md).
 
 ---
 
@@ -67,7 +67,7 @@ var artifactGAgent = await gAgentFactory.GetArtifactGAgentAsync<MyArtifact, MyAr
 
 ## Real-World Usage Patterns (from Tests)
 
-The following examples are inspired by the [GAgentFactoryTests](../../test/Aevatar.GAgents.Tests/GAgentFactoryTests.cs):
+The following examples are inspired by the [GAgentFactoryTests](https://github.com/aevatarAI/aevatar-framework/blob/dev/test/Aevatar.GAgents.Tests/GAgentFactoryTests.cs):
 
 - **Create by GrainId:**
   - Ensures the agent's primary key matches the GrainId.
@@ -132,10 +132,10 @@ Console.WriteLine(state.Content.First()); // Should output "Test"
 
 ## Further Reading
 
-- [GAgent Documentation]./gagent)
-- [GAgent Attribute]./gagent-attribute)
-- [Aevatar Overview]./overview)
-- [GAgentFactoryTests (source)](../../test/Aevatar.GAgents.Tests/GAgentFactoryTests.cs)
+- [GAgent Documentation](./01-gagent.md)
+- [GAgent Attribute](./03-gagent-attribute.md)
+- [Aevatar Overview](./00-overview.md)
+- [GAgentFactoryTests (source)](https://github.com/aevatarAI/aevatar-framework/blob/dev/test/Aevatar.GAgents.Tests/GAgentFactoryTests.cs)
 
 ---
 
