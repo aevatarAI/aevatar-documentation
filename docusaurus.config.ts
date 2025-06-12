@@ -94,6 +94,18 @@ const config: Config = {
               label: "Quick Start",
               to: "/docs/quick-start",
             },
+            {
+              label: "aevatar-framework(DeepWiki)",
+              href: "https://deepwiki.com/aevatarAI/aevatar-framework",
+            },
+            {
+              label: "aevatar-signalR(DeepWiki)",
+              href: "https://deepwiki.com/aevatarAI/aevatar-signalR",
+            },
+            {
+              label: "aevatar-station(DeepWiki)",
+              href: "https://deepwiki.com/aevatarAI/aevatar-station",
+            },
           ],
         },
         // {
