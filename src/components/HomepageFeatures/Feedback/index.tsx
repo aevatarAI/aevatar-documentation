@@ -7,7 +7,7 @@ export default function Feedback() {
       <span role="img" aria-label="idea">
         💡
       </span>
-      Have any suggestions or questions?&nbsp;
+      Was this page helpful?&nbsp;
       <a
         href="https://github.com/aevatarAI/aevatar-documentation/issues/new"
         target="_blank">
