@@ -4,7 +4,7 @@ import { useDocsSidebar } from "@docusaurus/plugin-content-docs/client";
 import type { Props } from "@theme/DocRoot/Layout/Main";
 
 import styles from "./styles.module.css";
-import Feedback from "@site/src/components/HomepageFeatures/Feedback";
+import Feedback from "@site/src/components/Feedback";
 
 export default function DocRootLayoutMain({
   hiddenSidebarContainer,
