@@ -14,11 +14,11 @@
 }
 
 .feedbackLink a {
-  color: #2563eb;
+  color: #AFC6DD;
   text-decoration: underline;
   transition: color 0.2s;
 }
 
 .feedbackLink a:hover {
-  color: #1a237e;
+  color: #AFC6DD;
 }
