@@ -76,8 +76,12 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+    },
     navbar: {
-      title: "aevatar.ai",
+      title: "",
       logo: {
         alt: "aevatar.ai Logo",
         src: "img/logo.svg",

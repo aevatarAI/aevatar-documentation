@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: "Easy to Use",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    Svg: require("@site/static/img/easy-to-use.svg").default,
     description: (
       <>
         Aevatar provides a plug-and-play architecture, allowing developers to
@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Focused on What Matters",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    Svg: require("@site/static/img/focus.svg").default,
     description: (
       <>
         By abstracting away infrastructure complexity, Aevatar lets you
@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Powered by Orleans / Virtual Actor Model",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    Svg: require("@site/static/img/powered by.svg").default,
     description: (
       <>
         Built on Microsoft Orleans, Aevatar leverages the Virtual Actor Model
