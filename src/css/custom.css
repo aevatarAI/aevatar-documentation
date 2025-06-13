@@ -4,6 +4,9 @@
  * work well for content-centric websites.
  */
 
+/* Import Google Fonts: Source Code Pro and Syne */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&family=Syne:wght@700&display=swap');
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #5b8ef4;
@@ -36,6 +39,8 @@
   --ifm-help-center-category-suggestion-text: #515a62;
   --ifm-help-center-category-container-bg: #fff;
   --ifm-help-center-category-container-border: #e0e0e0;
+  --ifm-heading-font-family: "Syne", sans-serif;
+
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -68,9 +73,16 @@
   --ifm-hr-background-color: #303030;
   --ifm-font-color-base: #b9b9b9;
   --ifm-color-primary: #AFC6DD;
-
 }
 
 .footer--dark {
   background-color: #191919 !important;
+}
+
+.navbar__logo {
+  height: 1.5rem;
+}
+
+html {
+  font-family: "Source Code Pro", sans-serif;
 }
