@@ -39,10 +39,13 @@ const sidebars: SidebarsConfig = {
         { type: "doc", id: "document/gagent-attribute", label: "GAgent Attribute" },
         { type: "doc", id: "document/gagent-factory", label: "GAgentFactory" },
         { type: "doc", id: "document/gagent-mongodb-event-sourcing", label: "GAgent EventSourcing" },
-        { type: "doc", id: "document/aevatar-signalR", label: "Aevatar SignalR" }
+        { type: "doc", id: "document/aevatar-signalR", label: "Aevatar SignalR" },
+        { type: "doc", id: "document/plugin", label: "Plugin" },
+        { type: "doc", id: "document/permission", label: "Permission" }
       ],
     },
   ],
+
   
   // But you can create a sidebar manually
   /*
